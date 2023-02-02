@@ -1,0 +1,52 @@
+{
+    "name": "Hyper Ai Auto Request Accept Bot",
+    "description": "I am Hyper Ai Auto Request Accept Bot. ,
+    "keywords": [
+        "Auto",
+        "Approved",
+        "Group",
+        "Invite",
+        "Link",
+        "Bot"
+    ],
+    "website": "https://hyperai.in",
+    "repository": "https://github.com/afrinleonad/Hyper-AI-Auto-Accept-Bot,",
+    "env": {
+        "API_ID": {
+            "description": "24266779",
+            "value": ""
+        },
+        "API_HASH": {
+            "description": "7476efa6073a85acc96d1e303ef22028",
+            "value": ""
+        },
+        "BOT_TOKEN": {
+            "description": "6185461571:AAG-aaqFkSf4gDd8-kNKGABI0eGUR05FkBE",
+            "value": ""
+        },
+        "CHAT_ID": {
+            "description": "Hi,I am Hyper Ai Auto Request Accept Bot,Use me in our Channel/Group",
+            "value": ""
+        },
+        "APPROVED_WELCOME": {
+            "description": "APPROVED_WELCOME On Or Off",
+            "value": "on"
+        },
+        "APPROVED_WELCOME_TEXT": {
+            "description": "APPROVED_WELCOME_TEXT : Welcome Text",
+            "value": "**Hello {mention}\nWelcome To {title}\n\nYour Request Is Approved.**"
+        }
+    },
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        }
+    ],
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    }
+}
+Give feedback
